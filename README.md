@@ -1,29 +1,29 @@
-# 🎬 ClementineFilms - Plataforma de Streaming del Creador
+# 🎬 ClementineFilms - Plataforma de Streaming para Cineastas Independientes
 
 ## Descripción
-ClementineFilms es una plataforma de streaming creada por un cineasta independiente para distribuir sus propias películas, cortos e historias directamente a su audiencia. La plataforma utiliza una infraestructura híbrida que combina almacenamiento local (NAS) con servicios en la nube para optimizar costos y rendimiento.
+ClementineFilms es una plataforma de streaming diseñada para cineastas independientes que desean distribuir sus películas, cortos e historias directamente a su audiencia. La plataforma utiliza una infraestructura híbrida que combina almacenamiento local (NAS) con servicios en la nube para optimizar costos y rendimiento, permitiendo a múltiples creadores monetizar su contenido.
 
 ## 🎯 Modelo de Negocio
 
-### **Estrategia Híbrida Freemium**
+### **Estrategia Híbrida Freemium Multi-Creador**
 - **Contenido Gratuito**: Cortos, trailers, behind-the-scenes, making-of
 - **Contenido Premium**: Películas completas, director's cuts, contenido exclusivo
 - **Suscripción Mensual**: $4.99-$9.99/mes para acceso completo sin anuncios
 - **Pago por Película**: $2.99-$4.99 por película individual
 - **Monetización Adicional**: Publicidad en contenido gratuito, sponsorships, merchandising
 
-### **Ventajas del Modelo**
-- ✅ **Control Total**: El creador decide qué, cuándo y cómo publicar
-- ✅ **Sin Intermediarios**: 100% de las ganancias van al creador
-- ✅ **Audiencia Directa**: Construcción de comunidad propia
-- ✅ **Flexibilidad**: Cambios rápidos en estrategia y precios
-- ✅ **Escalabilidad**: Posibilidad de agregar otros creadores en el futuro
+### **Ventajas del Modelo Multi-Creador**
+- ✅ **Control Total**: Cada cineasta decide qué, cuándo y cómo publicar
+- ✅ **Sin Intermediarios**: 100% de las ganancias van a los creadores
+- ✅ **Audiencia Directa**: Construcción de comunidad propia para cada creador
+- ✅ **Flexibilidad**: Cambios rápidos en estrategia y precios por creador
+- ✅ **Escalabilidad**: Plataforma preparada para múltiples creadores
+- ✅ **Comunidad**: Los espectadores descubren nuevos talentos
 
 ## 🏗️ Infraestructura Híbrida
 
-### **Almacenamiento Local (Casa del Creador)**
+### **Almacenamiento Local (Centro de Datos)**
 ```
-https://compratecno.cl/almacenamiento-nas/12911-as7110t-nas-10-bahias-2-m2-8gb-ram-ampliableintel-xeon-e-2224-quad-34-46ghz-1-10g-3-25g.html?gad_source=1&gad_campaignid=20215125357&gclid=CjwKCAjwv5zEBhBwEiwAOg2YKJxQ8GrfAxiPo9uPNyLVgp786-NtxQRYB5X0dp4gji3AeaLF-_AbdhoCafgQAvD_BwE
 📁 NAS ASUSTOR AS7110T Lockerstor 10 Pro
 ├── 10x Discos Seagate IronWolf Pro 18TB
 ├── 2x Samsung 970 EVO Plus 2TB (caché M.2 NVMe)
@@ -49,36 +49,35 @@ Internet → Cloudflare CDN → Vercel Frontend → Railway Backend → NAS Loca
                             PostgreSQL Cloud DB
 ```
 
-## 💰 Costos Estimados Mensuales
+## 💰 Modelo de Ingresos Multi-Creador
 
-### **Infraestructura**
-- **Hosting Frontend**: $0 (Vercel/Netlify)
-- **Hosting Backend**: $20/mes (Railway)
-- **Base de Datos**: $15/mes (PostgreSQL)
-- **CDN**: $0 (Cloudflare)
-- **Electricidad NAS**: $50/mes (ASUSTOR más potente)
-- **Internet Fibra**: $150/mes
-- **Total Infraestructura**: ~$235/mes
+### **Para Cineastas**
+- **70% de ingresos** por contenido propio
+- **Sistema de suscripciones** por creador
+- **Pago por visualización** en contenido gratuito
+- **Dashboard individual** con analytics
 
-### **Ingresos Proyectados**
-- **Fase 1 (0-6 meses)**: $0-500/mes
-- **Fase 2 (6-18 meses)**: $500-2000/mes
-- **Fase 3 (18+ meses)**: $2000+/mes
+### **Para la Plataforma**
+- **30% de comisión** por transacción
+- **Suscripciones premium** compartidas
+- **Publicidad** en contenido gratuito
+
+### **Costos Estimados Mensuales**
+- **Infraestructura**: ~$235/mes
+- **Ingresos Proyectados (Fase 3)**: $2000+/mes con múltiples creadores
 
 ## 📊 Planes de Suscripción
 
 ### **Plan Gratuito**
-- ✅ Acceso a cortos y trailers
-- ✅ Behind-the-scenes
-- ✅ Making-of videos
+- ✅ Acceso a cortos y trailers de todos los creadores
+- ✅ Behind-the-scenes y making-of
 - ⚠️ Anuncios incluidos
 - ⚠️ Calidad limitada a 720p
 
 ### **Plan Premium ($6.99/mes)**
 - ✅ Todo el contenido gratuito
-- ✅ Películas completas
-- ✅ Director's cuts
-- ✅ Contenido exclusivo
+- ✅ Películas completas de todos los creadores
+- ✅ Director's cuts y contenido exclusivo
 - ✅ Sin anuncios
 - ✅ Calidad hasta 4K
 - ✅ Descarga offline
@@ -89,28 +88,30 @@ Internet → Cloudflare CDN → Vercel Frontend → Railway Backend → NAS Loca
 - ✅ Perfiles familiares
 - ✅ Controles parentales
 
-## 🚀 Estrategia de Lanzamiento
+## 🚀 Estrategia de Lanzamiento Multi-Creador
 
 ### **Fase 1: Fundación (0-6 meses)**
-- 🎬 Lanzar con 5-10 cortos gratis
-- 🎬 1-2 películas premium
+- 🎬 Lanzar con 3-5 cineastas pioneros
+- 🎬 5-10 cortos gratis por creador
+- 🎬 1-2 películas premium por creador
 - 🎬 Construir presencia en redes sociales
 - 🎬 Implementar sistema de pagos básico
-- 🖥️ Configurar NAS ASUSTOR AS7110T
 - 💰 Objetivo: $0-500/mes
 
 ### **Fase 2: Crecimiento (6-18 meses)**
-- 🎬 Catálogo de 20+ cortos
-- 🎬 5+ películas completas
+- 🎬 10-15 cineastas activos
+- 🎬 Catálogo de 50+ cortos
+- 🎬 15+ películas completas
 - 🎬 Sistema de suscripción completo
 - 🎬 Marketing y promoción activa
 - 💰 Objetivo: $500-2000/mes
 
 ### **Fase 3: Expansión (18+ meses)**
-- 🎬 Plataforma establecida
-- 🎬 Considerar otros creadores
+- 🎬 25+ cineastas establecidos
+- 🎬 Plataforma reconocida en la industria
 - 🎬 Eventos en vivo y estrenos
 - 🎬 Merchandising y productos
+- 🎬 Festivales virtuales
 - 💰 Objetivo: $2000+/mes
 
 ## 🔧 Especificaciones Técnicas
@@ -160,23 +161,27 @@ Internet → Cloudflare CDN → Vercel Frontend → Railway Backend → NAS Loca
 
 ## 🎨 Características de la Plataforma
 
-### **Para Usuarios**
+### **Para Espectadores**
 - 🎬 Reproductor de video adaptativo (hasta 4K)
 - 📱 Diseño responsive (móvil, tablet, desktop)
-- 🔍 Búsqueda y filtros avanzados
+- 🔍 Búsqueda y filtros por creador, género, año
 - 📋 Listas de reproducción personalizadas
 - ⬇️ Descarga offline (solo premium)
 - 👥 Perfiles múltiples (plan familiar)
 - ⚡ Streaming de alta velocidad (10Gbps)
 - 🎯 Calidad adaptativa automática
+- 👤 Seguir a creadores favoritos
+- 🔔 Notificaciones de nuevos contenidos
 
-### **Para el Creador**
-- 📊 Dashboard de analytics
+### **Para Cineastas**
+- 📊 Dashboard individual con analytics
 - 💰 Gestión de suscripciones y pagos
 - 🎬 Upload y gestión de contenido
-- 📈 Estadísticas de visualización
+- 📈 Estadísticas de visualización por película
 - 💬 Sistema de comentarios y feedback
-- 📧 Notificaciones automáticas
+- 📧 Notificaciones automáticas a seguidores
+- 🎨 Perfil personalizable de creador
+- 📱 Gestión de redes sociales integrada
 
 ## 🔒 Privacidad y Términos
 
@@ -184,6 +189,7 @@ Internet → Cloudflare CDN → Vercel Frontend → Railway Backend → NAS Loca
 - **Términos de Servicio**: Uso justo y responsabilidades
 - **Derechos de Autor**: Protección del contenido original
 - **Cookies**: Consentimiento explícito del usuario
+- **Contratos de Creador**: Acuerdos individuales por cineasta
 
 ## 📞 Soporte y Comunidad
 
@@ -191,11 +197,12 @@ Internet → Cloudflare CDN → Vercel Frontend → Railway Backend → NAS Loca
 - **Discord**: [ClementineFilms Community](https://discord.gg/clementinefilms)
 - **Instagram**: [@clementinefilms](https://instagram.com/clementinefilms)
 - **YouTube**: [ClementineFilms](https://youtube.com/clementinefilms)
+- **Para Cineastas**: creadores@clementinefilms.com
 
 ## 📄 Licencia
 
-Este proyecto es propiedad del creador de contenido. Todos los derechos reservados.
+Este proyecto es propiedad de ClementineFilms. Todos los derechos reservados.
 
 ---
 
-**ClementineFilms** - Donde el cine independiente encuentra su audiencia. 
+**ClementineFilms** - Donde el cine independiente encuentra su audiencia y los cineastas encuentran su comunidad. 
