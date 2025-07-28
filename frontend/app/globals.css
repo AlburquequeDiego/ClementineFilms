@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-cinematic-black text-white font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-cinematic-yellow hover:bg-yellow-400 text-cinematic-black font-bold py-3 px-8 rounded-none transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-yellow-500/25;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border-2 border-white hover:bg-white hover:text-cinematic-black text-white font-bold py-3 px-8 rounded-none transition-all duration-300;
+  }
+  
+  .card {
+    @apply bg-cinematic-gray border border-cinematic-light rounded-none p-6 shadow-2xl hover:shadow-cinematic-blue/20 transition-all duration-500 hover:border-cinematic-blue/50;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-cinematic-yellow to-yellow-400 bg-clip-text text-transparent;
+  }
+  
+  .cinematic-glow {
+    @apply shadow-lg shadow-cinematic-blue/30;
+  }
+  
+  .movie-title {
+    @apply text-6xl md:text-8xl font-display font-black text-cinematic-yellow tracking-wider;
+    text-shadow: 0 0 30px rgba(250, 204, 21, 0.5);
+  }
+  
+  .award-badge {
+    @apply bg-cinematic-yellow text-cinematic-black px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider;
+  }
+} 
